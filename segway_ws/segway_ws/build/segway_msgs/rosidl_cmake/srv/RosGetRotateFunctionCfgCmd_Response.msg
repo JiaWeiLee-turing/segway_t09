@@ -1,0 +1,2 @@
+
+uint8   cfg_in_situ_rotation_cmd

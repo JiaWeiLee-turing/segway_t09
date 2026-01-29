@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs LD_LIBRARY_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/pkgconfig PYTHONPATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share /home/joe/.local/bin/cmake /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.146s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.146s] -- Detecting C compile features
+[0.147s] -- Detecting C compile features - done
+[0.149s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.197s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.199s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.273s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.428s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.437s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.501s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.502s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.522s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.587s] -- Found Threads: TRUE  
+[0.687s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.715s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.768s] -- Found segway_msgs: 0.0.0 (/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake)
+[0.854s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.906s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[0.914s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.082s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.090s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.091s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.091s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.101s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[1.101s]   By not providing "Findtier4_vehicle_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.101s]   project has asked CMake to find a package configuration file provided by
+[1.101s]   "tier4_vehicle_msgs", but CMake did not find one.
+[1.101s] 
+[1.101s]   Could not find a package configuration file provided by
+[1.101s]   "tier4_vehicle_msgs" with any of the following names:
+[1.101s] 
+[1.101s]     tier4_vehicle_msgsConfig.cmake
+[1.101s]     tier4_vehicle_msgs-config.cmake
+[1.101s] 
+[1.101s]   Add the installation prefix of "tier4_vehicle_msgs" to CMAKE_PREFIX_PATH or
+[1.101s]   set "tier4_vehicle_msgs_DIR" to a directory containing one of the above
+[1.101s]   files.  If "tier4_vehicle_msgs" provides a separate development package or
+[1.101s]   SDK, be sure it has been installed.
+[1.101s] 
+[1.101s] [0m
+[1.101s] -- Configuring incomplete, errors occurred!
+[1.101s] See also "/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/CMakeOutput.log".
+[1.110s] Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs LD_LIBRARY_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/pkgconfig PYTHONPATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share /home/joe/.local/bin/cmake /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2

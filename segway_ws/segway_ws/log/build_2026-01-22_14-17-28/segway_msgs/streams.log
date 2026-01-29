@@ -1,0 +1,1115 @@
+[0.008s] Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs': /home/joe/.local/bin/cmake /home/joe/Desktop/segway_ws/segway_ws/src/segway_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.151s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.201s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.201s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.203s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.331s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.831s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.850s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.868s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.868s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.868s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.868s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.881s] -- Found PythonExtra: .so  
+[0.914s] -- Configuring done
+[0.982s] -- Generating done
+[0.984s] [33mCMake Warning:
+[0.984s]   Manually-specified variables were not used by the project:
+[0.984s] 
+[0.984s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.984s]     CATKIN_SYMLINK_INSTALL
+[0.984s] 
+[0.984s] [0m
+[0.984s] -- Build files have been written to: /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs
+[0.992s] Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs' returned '0': /home/joe/.local/bin/cmake /home/joe/Desktop/segway_ws/segway_ws/src/segway_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs
+[0.994s] Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs': /home/joe/.local/bin/cmake --build /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs -- -j32 -l32
+[1.034s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.039s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.040s] [  1%] Built target ament_cmake_python_copy_segway_msgs
+[1.223s] running egg_info
+[1.224s] creating segway_msgs.egg-info
+[1.224s] writing segway_msgs.egg-info/PKG-INFO
+[1.224s] writing dependency_links to segway_msgs.egg-info/dependency_links.txt
+[1.224s] writing top-level names to segway_msgs.egg-info/top_level.txt
+[1.224s] writing manifest file 'segway_msgs.egg-info/SOURCES.txt'
+[1.225s] reading manifest file 'segway_msgs.egg-info/SOURCES.txt'
+[1.225s] writing manifest file 'segway_msgs.egg-info/SOURCES.txt'
+[1.242s] [  1%] Built target ament_cmake_python_build_segway_msgs_egg
+[2.245s] [  1%] Built target segway_msgs__cpp
+[2.250s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.251s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.252s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.312s] [  4%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/bms_fb__functions.c.o[0m
+[2.312s] [  4%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/chassis_ctrl_src_fb__functions.c.o[0m
+[2.314s] [  5%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/chassis_mileage_meter_fb__functions.c.o[0m
+[2.314s] [  5%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/chassis_mode_fb__functions.c.o[0m
+[2.314s] [  6%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/error_code_fb__functions.c.o[0m
+[2.314s] [  6%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/front_wheel_angle_fb__functions.c.o[0m
+[2.314s] [  7%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/speed_fb__functions.c.o[0m
+[2.314s] [  7%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/motor_work_mode_fb__functions.c.o[0m
+[2.315s] [  7%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/msg/detail/ticks_fb__functions.c.o[0m
+[2.317s] [  7%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/chassis_send_event__functions.c.o[0m
+[2.319s] [  7%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__functions.c.o[0m
+[2.319s] [  7%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__functions.c.o[0m
+[2.319s] [  8%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__functions.c.o[0m
+[2.320s] [ 10%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_load_param_cmd__functions.c.o[0m
+[2.320s] [ 10%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__functions.c.o[0m
+[2.320s] [ 10%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__functions.c.o[0m
+[2.321s] [ 10%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__functions.c.o[0m
+[2.321s] [ 11%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__functions.c.o[0m
+[2.321s] [ 11%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_get_sw_version_cmd__functions.c.o[0m
+[2.322s] [ 11%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_reset_host_power_cmd__functions.c.o[0m
+[2.322s] [ 12%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__functions.c.o[0m
+[2.322s] [ 12%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__functions.c.o[0m
+[2.323s] [ 12%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__functions.c.o[0m
+[2.323s] [ 13%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__functions.c.o[0m
+[2.324s] [ 13%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_set_load_param_cmd__functions.c.o[0m
+[2.324s] [ 14%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_set_vel_max_cmd__functions.c.o[0m
+[2.328s] [ 14%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__functions.c.o[0m
+[2.332s] [ 14%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__functions.c.o[0m
+[2.334s] [ 15%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__functions.c.o[0m
+[2.493s] [ 15%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_c.dir/rosidl_generator_c/segway_msgs/action/detail/ros_set_iap_cmd__functions.c.o[0m
+[2.848s] [ 15%] [32m[1mLinking C shared library libsegway_msgs__rosidl_generator_c.so[0m
+[2.877s] [ 15%] Built target segway_msgs__rosidl_generator_c
+[2.883s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.884s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.884s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.192s] [ 18%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/bms_fb__type_support.cpp.o[0m
+[3.192s] [ 19%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/chassis_mileage_meter_fb__type_support.cpp.o[0m
+[3.193s] [ 19%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/chassis_ctrl_src_fb__type_support.cpp.o[0m
+[3.193s] [ 19%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/chassis_mode_fb__type_support.cpp.o[0m
+[3.194s] [ 20%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/front_wheel_angle_fb__type_support.cpp.o[0m
+[3.194s] [ 20%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/error_code_fb__type_support.cpp.o[0m
+[3.195s] [ 20%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/motor_work_mode_fb__type_support.cpp.o[0m
+[3.196s] [ 21%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/speed_fb__type_support.cpp.o[0m
+[3.196s] [ 21%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/msg/ticks_fb__type_support.cpp.o[0m
+[3.196s] [ 21%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/chassis_send_event__type_support.cpp.o[0m
+[3.196s] [ 22%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_clear_chassis_error_code_cmd__type_support.cpp.o[0m
+[3.197s] [ 22%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_enable_chassis_rotate_cmd__type_support.cpp.o[0m
+[3.197s] [ 22%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_chassis_rotate_switch_cmd__type_support.cpp.o[0m
+[3.198s] [ 22%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_host_and_chassis_match_cmd__type_support.cpp.o[0m
+[3.198s] [ 23%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_chassis_sn_cmd__type_support.cpp.o[0m
+[3.199s] [ 23%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_rotate_function_cfg_cmd__type_support.cpp.o[0m
+[3.199s] [ 24%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_load_param_cmd__type_support.cpp.o[0m
+[3.201s] [ 24%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_sw_version_cmd__type_support.cpp.o[0m
+[3.201s] [ 25%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_get_vel_max_feedback_cmd__type_support.cpp.o[0m
+[3.201s] [ 25%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_reset_host_power_cmd__type_support.cpp.o[0m
+[3.202s] [ 26%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_set_chassis_buzzer_cmd__type_support.cpp.o[0m
+[3.202s] [ 26%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_set_cfg_rotate_function_cmd__type_support.cpp.o[0m
+[3.202s] [ 26%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_set_chassis_enable_cmd__type_support.cpp.o[0m
+[3.203s] [ 27%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_set_chassis_poweroff_cmd__type_support.cpp.o[0m
+[3.203s] [ 27%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_set_load_param_cmd__type_support.cpp.o[0m
+[3.208s] [ 27%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_set_vel_max_cmd__type_support.cpp.o[0m
+[3.211s] [ 28%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_start_chassis_left_rotate_cmd__type_support.cpp.o[0m
+[3.748s] [ 28%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_start_chassis_right_rotate_cmd__type_support.cpp.o[0m
+[3.756s] [ 29%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/srv/ros_stop_chassis_rotate_cmd__type_support.cpp.o[0m
+[3.767s] [ 29%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/segway_msgs/action/ros_set_iap_cmd__type_support.cpp.o[0m
+[3.816s] [ 29%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/bms_fb__type_support.cpp.o[0m
+[3.816s] [ 29%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/chassis_mode_fb__type_support.cpp.o[0m
+[3.816s] [ 29%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/chassis_ctrl_src_fb__type_support.cpp.o[0m
+[3.817s] [ 30%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/chassis_mileage_meter_fb__type_support.cpp.o[0m
+[3.817s] [ 31%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/error_code_fb__type_support.cpp.o[0m
+[3.817s] [ 31%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/front_wheel_angle_fb__type_support.cpp.o[0m
+[3.818s] [ 32%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/speed_fb__type_support.cpp.o[0m
+[3.818s] [ 32%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/motor_work_mode_fb__type_support.cpp.o[0m
+[3.818s] [ 32%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/msg/detail/ticks_fb__type_support.cpp.o[0m
+[3.819s] [ 33%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/chassis_send_event__type_support.cpp.o[0m
+[3.819s] [ 33%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__type_support.cpp.o[0m
+[3.820s] [ 33%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__type_support.cpp.o[0m
+[3.825s] [ 34%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__type_support.cpp.o[0m
+[3.825s] [ 34%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__type_support.cpp.o[0m
+[3.826s] [ 34%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__type_support.cpp.o[0m
+[3.826s] [ 35%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_load_param_cmd__type_support.cpp.o[0m
+[3.826s] [ 35%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__type_support.cpp.o[0m
+[3.828s] [ 36%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_sw_version_cmd__type_support.cpp.o[0m
+[3.831s] [ 36%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__type_support.cpp.o[0m
+[3.836s] [ 36%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_reset_host_power_cmd__type_support.cpp.o[0m
+[3.850s] [ 37%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__type_support.cpp.o[0m
+[3.857s] [ 37%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__type_support.cpp.o[0m
+[3.864s] [ 37%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__type_support.cpp.o[0m
+[3.909s] [ 38%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__type_support.cpp.o[0m
+[3.976s] [ 38%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_set_load_param_cmd__type_support.cpp.o[0m
+[4.322s] [ 39%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_set_vel_max_cmd__type_support.cpp.o[0m
+[4.332s] [ 39%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__type_support.cpp.o[0m
+[4.417s] [ 39%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/bms_fb__type_support.cpp.o[0m
+[4.511s] [ 39%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/chassis_ctrl_src_fb__type_support.cpp.o[0m
+[4.548s] [ 40%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/chassis_mileage_meter_fb__type_support.cpp.o[0m
+[4.548s] [ 40%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__type_support.cpp.o[0m
+[4.562s] [ 40%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/bms_fb__type_support.cpp.o[0m
+[4.566s] [ 40%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/chassis_mode_fb__type_support.cpp.o[0m
+[4.567s] [ 41%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__type_support.cpp.o[0m
+[4.573s] [ 41%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/segway_msgs/action/detail/ros_set_iap_cmd__type_support.cpp.o[0m
+[4.590s] [ 41%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/error_code_fb__type_support.cpp.o[0m
+[4.599s] [ 42%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/front_wheel_angle_fb__type_support.cpp.o[0m
+[4.606s] [ 42%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/chassis_ctrl_src_fb__type_support.cpp.o[0m
+[4.606s] [ 42%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/motor_work_mode_fb__type_support.cpp.o[0m
+[4.608s] [ 43%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/speed_fb__type_support.cpp.o[0m
+[4.610s] [ 43%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/msg/ticks_fb__type_support.cpp.o[0m
+[4.613s] [ 43%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/chassis_send_event__type_support.cpp.o[0m
+[4.620s] [ 44%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/chassis_mileage_meter_fb__type_support.cpp.o[0m
+[4.623s] [ 45%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_clear_chassis_error_code_cmd__type_support.cpp.o[0m
+[4.624s] [ 45%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/chassis_mode_fb__type_support.cpp.o[0m
+[4.626s] [ 46%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/error_code_fb__type_support.cpp.o[0m
+[4.626s] [ 46%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_enable_chassis_rotate_cmd__type_support.cpp.o[0m
+[4.630s] [ 46%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/front_wheel_angle_fb__type_support.cpp.o[0m
+[4.635s] [ 46%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/motor_work_mode_fb__type_support.cpp.o[0m
+[4.641s] [ 47%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_chassis_rotate_switch_cmd__type_support.cpp.o[0m
+[4.645s] [ 48%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/speed_fb__type_support.cpp.o[0m
+[4.649s] [ 48%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_chassis_sn_cmd__type_support.cpp.o[0m
+[4.660s] [ 48%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/msg/detail/dds_fastrtps/ticks_fb__type_support.cpp.o[0m
+[4.660s] [ 48%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_host_and_chassis_match_cmd__type_support.cpp.o[0m
+[4.680s] [ 49%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_load_param_cmd__type_support.cpp.o[0m
+[4.684s] [ 49%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_rotate_function_cfg_cmd__type_support.cpp.o[0m
+[4.685s] [ 49%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/chassis_send_event__type_support.cpp.o[0m
+[4.692s] [ 49%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_sw_version_cmd__type_support.cpp.o[0m
+[4.692s] [ 49%] [32m[1mLinking CXX shared library libsegway_msgs__rosidl_typesupport_cpp.so[0m
+[4.692s] [ 50%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_clear_chassis_error_code_cmd__type_support.cpp.o[0m
+[4.692s] [ 51%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_get_vel_max_feedback_cmd__type_support.cpp.o[0m
+[4.692s] [ 51%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_enable_chassis_rotate_cmd__type_support.cpp.o[0m
+[4.694s] [ 51%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_reset_host_power_cmd__type_support.cpp.o[0m
+[4.695s] [ 52%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_chassis_rotate_switch_cmd__type_support.cpp.o[0m
+[4.708s] [ 53%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_set_cfg_rotate_function_cmd__type_support.cpp.o[0m
+[4.721s] [ 53%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_chassis_sn_cmd__type_support.cpp.o[0m
+[4.742s] [ 53%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_set_chassis_buzzer_cmd__type_support.cpp.o[0m
+[4.742s] [ 53%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_host_and_chassis_match_cmd__type_support.cpp.o[0m
+[4.749s] [ 53%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_set_chassis_enable_cmd__type_support.cpp.o[0m
+[4.755s] [ 54%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_load_param_cmd__type_support.cpp.o[0m
+[4.755s] [ 54%] Built target segway_msgs__rosidl_typesupport_cpp
+[4.759s] [ 54%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_rotate_function_cfg_cmd__type_support.cpp.o[0m
+[4.761s] [ 55%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_set_chassis_poweroff_cmd__type_support.cpp.o[0m
+[4.771s] [ 55%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_set_load_param_cmd__type_support.cpp.o[0m
+[4.771s] [ 55%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_sw_version_cmd__type_support.cpp.o[0m
+[4.772s] [ 56%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_get_vel_max_feedback_cmd__type_support.cpp.o[0m
+[4.786s] [ 56%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_set_vel_max_cmd__type_support.cpp.o[0m
+[4.795s] [ 57%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_start_chassis_left_rotate_cmd__type_support.cpp.o[0m
+[4.826s] [ 57%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_start_chassis_right_rotate_cmd__type_support.cpp.o[0m
+[4.829s] [ 57%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_reset_host_power_cmd__type_support.cpp.o[0m
+[4.850s] [ 58%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/srv/ros_stop_chassis_rotate_cmd__type_support.cpp.o[0m
+[4.857s] [ 59%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_set_cfg_rotate_function_cmd__type_support.cpp.o[0m
+[4.878s] [ 59%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/segway_msgs/action/ros_set_iap_cmd__type_support.cpp.o[0m
+[4.881s] [ 59%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_set_chassis_buzzer_cmd__type_support.cpp.o[0m
+[4.906s] [ 59%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_set_chassis_enable_cmd__type_support.cpp.o[0m
+[4.932s] [ 60%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_set_chassis_poweroff_cmd__type_support.cpp.o[0m
+[5.061s] [ 60%] [32m[1mLinking CXX shared library libsegway_msgs__rosidl_typesupport_c.so[0m
+[5.080s] [ 60%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_set_load_param_cmd__type_support.cpp.o[0m
+[5.097s] [ 61%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_set_vel_max_cmd__type_support.cpp.o[0m
+[5.128s] [ 61%] Built target segway_msgs__rosidl_typesupport_c
+[5.133s] [ 61%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_start_chassis_left_rotate_cmd__type_support.cpp.o[0m
+[5.321s] [ 61%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_start_chassis_right_rotate_cmd__type_support.cpp.o[0m
+[5.357s] [ 62%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/srv/detail/dds_fastrtps/ros_stop_chassis_rotate_cmd__type_support.cpp.o[0m
+[5.412s] [ 62%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/segway_msgs/action/detail/dds_fastrtps/ros_set_iap_cmd__type_support.cpp.o[0m
+[5.442s] [ 62%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/bms_fb__type_support.c.o[0m
+[5.444s] [ 63%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/chassis_ctrl_src_fb__type_support.c.o[0m
+[5.447s] [ 63%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/chassis_mileage_meter_fb__type_support.c.o[0m
+[5.448s] [ 63%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/chassis_mode_fb__type_support.c.o[0m
+[5.451s] [ 64%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/error_code_fb__type_support.c.o[0m
+[5.463s] [ 64%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/bms_fb__type_support_c.cpp.o[0m
+[5.481s] [ 64%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/chassis_ctrl_src_fb__type_support_c.cpp.o[0m
+[5.495s] [ 64%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/front_wheel_angle_fb__type_support.c.o[0m
+[5.495s] [ 64%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/motor_work_mode_fb__type_support.c.o[0m
+[5.496s] [ 65%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/chassis_mileage_meter_fb__type_support_c.cpp.o[0m
+[5.539s] [ 65%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/chassis_mode_fb__type_support_c.cpp.o[0m
+[5.546s] [ 66%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/speed_fb__type_support.c.o[0m
+[5.547s] [ 66%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/msg/detail/ticks_fb__type_support.c.o[0m
+[5.565s] [ 67%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/chassis_send_event__type_support.c.o[0m
+[5.572s] [ 68%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/error_code_fb__type_support_c.cpp.o[0m
+[5.581s] [ 68%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/front_wheel_angle_fb__type_support_c.cpp.o[0m
+[5.583s] [ 68%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__type_support.c.o[0m
+[5.592s] [ 68%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/motor_work_mode_fb__type_support_c.cpp.o[0m
+[5.593s] [ 68%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__type_support.c.o[0m
+[5.613s] [ 69%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__type_support.c.o[0m
+[5.616s] [ 69%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__type_support.c.o[0m
+[5.631s] [ 70%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/speed_fb__type_support_c.cpp.o[0m
+[5.635s] [ 70%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__type_support.c.o[0m
+[5.646s] [ 70%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/msg/detail/ticks_fb__type_support_c.cpp.o[0m
+[5.651s] [ 70%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/chassis_send_event__type_support_c.cpp.o[0m
+[5.655s] [ 71%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__type_support_c.cpp.o[0m
+[5.683s] [ 72%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_load_param_cmd__type_support.c.o[0m
+[5.689s] [ 72%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__type_support.c.o[0m
+[5.689s] [ 73%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_sw_version_cmd__type_support.c.o[0m
+[5.690s] [ 73%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__type_support.c.o[0m
+[5.704s] [ 73%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__type_support_c.cpp.o[0m
+[5.722s] [ 74%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__type_support_c.cpp.o[0m
+[5.735s] [ 74%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__type_support_c.cpp.o[0m
+[5.736s] [ 74%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_reset_host_power_cmd__type_support.c.o[0m
+[5.753s] [ 75%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__type_support.c.o[0m
+[5.757s] [ 75%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__type_support_c.cpp.o[0m
+[5.772s] [ 75%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__type_support.c.o[0m
+[5.788s] [ 76%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__type_support.c.o[0m
+[5.792s] [ 76%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__type_support.c.o[0m
+[5.801s] [ 76%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_set_load_param_cmd__type_support.c.o[0m
+[5.811s] [ 77%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_set_vel_max_cmd__type_support.c.o[0m
+[5.815s] [ 77%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__type_support.c.o[0m
+[5.841s] [ 77%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__type_support.c.o[0m
+[5.845s] [ 78%] [32m[1mLinking CXX shared library libsegway_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.845s] [ 79%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__type_support.c.o[0m
+[5.859s] [ 79%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/segway_msgs/action/detail/ros_set_iap_cmd__type_support.c.o[0m
+[5.864s] [ 80%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_load_param_cmd__type_support_c.cpp.o[0m
+[5.887s] [ 80%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__type_support_c.cpp.o[0m
+[5.893s] [ 81%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_sw_version_cmd__type_support_c.cpp.o[0m
+[5.894s] [ 81%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__type_support_c.cpp.o[0m
+[5.913s] [ 81%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_reset_host_power_cmd__type_support_c.cpp.o[0m
+[5.928s] [ 82%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__type_support_c.cpp.o[0m
+[5.932s] [ 82%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__type_support_c.cpp.o[0m
+[5.943s] [ 82%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__type_support_c.cpp.o[0m
+[5.950s] [ 83%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__type_support_c.cpp.o[0m
+[5.953s] [ 83%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_set_load_param_cmd__type_support_c.cpp.o[0m
+[5.959s] [ 83%] Built target segway_msgs__rosidl_typesupport_introspection_cpp
+[5.963s] [ 84%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_set_vel_max_cmd__type_support_c.cpp.o[0m
+[6.023s] [ 85%] [32m[1mLinking C shared library libsegway_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.064s] [ 85%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__type_support_c.cpp.o[0m
+[6.064s] [ 85%] Built target segway_msgs__rosidl_typesupport_introspection_c
+[6.069s] [ 85%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__type_support_c.cpp.o[0m
+[6.122s] [ 86%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__type_support_c.cpp.o[0m
+[6.163s] [ 86%] [32mBuilding CXX object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/segway_msgs/action/detail/ros_set_iap_cmd__type_support_c.cpp.o[0m
+[6.626s] [ 86%] [32m[1mLinking CXX shared library libsegway_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.681s] [ 86%] Built target segway_msgs__rosidl_typesupport_fastrtps_cpp
+[6.739s] [ 86%] [32m[1mLinking CXX shared library libsegway_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.785s] [ 86%] Built target segway_msgs__rosidl_typesupport_fastrtps_c
+[6.794s] [ 86%] Built target segway_msgs
+[6.804s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.934s] [ 86%] Built target segway_msgs__py
+[8.944s] [ 87%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_bms_fb_s.c.o[0m
+[8.944s] [ 87%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_chassis_ctrl_src_fb_s.c.o[0m
+[8.945s] [ 88%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_chassis_mileage_meter_fb_s.c.o[0m
+[8.945s] [ 88%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_chassis_mode_fb_s.c.o[0m
+[8.945s] [ 88%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_error_code_fb_s.c.o[0m
+[8.945s] [ 89%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_front_wheel_angle_fb_s.c.o[0m
+[8.946s] [ 89%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_speed_fb_s.c.o[0m
+[8.946s] [ 89%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_motor_work_mode_fb_s.c.o[0m
+[8.946s] [ 90%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/msg/_ticks_fb_s.c.o[0m
+[8.946s] [ 90%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_chassis_send_event_s.c.o[0m
+[8.947s] [ 90%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_enable_chassis_rotate_cmd_s.c.o[0m
+[8.947s] [ 91%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_clear_chassis_error_code_cmd_s.c.o[0m
+[8.948s] [ 91%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_chassis_rotate_switch_cmd_s.c.o[0m
+[8.950s] [ 92%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_chassis_sn_cmd_s.c.o[0m
+[8.951s] [ 92%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_host_and_chassis_match_cmd_s.c.o[0m
+[8.952s] [ 93%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_load_param_cmd_s.c.o[0m
+[8.952s] [ 93%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_sw_version_cmd_s.c.o[0m
+[8.952s] [ 93%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_rotate_function_cfg_cmd_s.c.o[0m
+[8.953s] [ 94%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_get_vel_max_feedback_cmd_s.c.o[0m
+[8.954s] [ 94%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_reset_host_power_cmd_s.c.o[0m
+[8.954s] [ 95%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_set_chassis_buzzer_cmd_s.c.o[0m
+[8.954s] [ 95%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_set_cfg_rotate_function_cmd_s.c.o[0m
+[8.954s] [ 95%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_set_chassis_enable_cmd_s.c.o[0m
+[8.955s] [ 96%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_set_chassis_poweroff_cmd_s.c.o[0m
+[8.955s] [ 96%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_set_load_param_cmd_s.c.o[0m
+[8.955s] [ 96%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_set_vel_max_cmd_s.c.o[0m
+[8.956s] [ 97%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_start_chassis_left_rotate_cmd_s.c.o[0m
+[8.958s] [ 97%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_start_chassis_right_rotate_cmd_s.c.o[0m
+[8.958s] [ 97%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/srv/_ros_stop_chassis_rotate_cmd_s.c.o[0m
+[8.961s] [ 98%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_generator_py.dir/rosidl_generator_py/segway_msgs/action/_ros_set_iap_cmd_s.c.o[0m
+[9.407s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/segway_msgs/libsegway_msgs__rosidl_generator_py.so[0m
+[9.433s] [ 98%] Built target segway_msgs__rosidl_generator_py
+[9.441s] [ 99%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/segway_msgs/_segway_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.442s] [100%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/segway_msgs/_segway_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.442s] [ 99%] [32mBuilding C object CMakeFiles/segway_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/segway_msgs/_segway_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.002s] [100%] [32m[1mLinking C shared library rosidl_generator_py/segway_msgs/segway_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.004s] [100%] [32m[1mLinking C shared library rosidl_generator_py/segway_msgs/segway_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.009s] [100%] [32m[1mLinking C shared library rosidl_generator_py/segway_msgs/segway_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.030s] [100%] Built target segway_msgs__rosidl_typesupport_c__pyext
+[10.031s] [100%] Built target segway_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.035s] [100%] Built target segway_msgs__rosidl_typesupport_introspection_c__pyext
+[10.045s] Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs' returned '0': /home/joe/.local/bin/cmake --build /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs -- -j32 -l32
+[11.233s] Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs': /home/joe/.local/bin/cmake --install /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs
+[11.252s] -- Install configuration: "Release"
+[11.252s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/ament_index/resource_index/rosidl_interfaces/segway_msgs
+[11.252s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs
+[11.252s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action
+[11.252s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail
+[11.252s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__type_support.h
+[11.253s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__functions.h
+[11.253s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__functions.c
+[11.253s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__struct.h
+[11.253s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/ros_set_iap_cmd.h
+[11.253s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg
+[11.253s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/chassis_mode_fb.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/error_code_fb.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/ticks_fb.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/bms_fb.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/front_wheel_angle_fb.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__functions.c
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__struct.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__functions.c
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__functions.c
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__type_support.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__functions.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__type_support.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__functions.c
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__type_support.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__struct.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__type_support.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__functions.c
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__functions.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__struct.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__functions.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__type_support.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__type_support.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__functions.h
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__functions.c
+[11.254s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__struct.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__functions.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__struct.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__functions.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__type_support.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__functions.c
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__struct.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__type_support.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__functions.c
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__type_support.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__functions.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__struct.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__functions.c
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__functions.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__struct.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__functions.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__struct.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/speed_fb.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/chassis_ctrl_src_fb.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/chassis_mileage_meter_fb.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/motor_work_mode_fb.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_sw_version_cmd.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_clear_chassis_error_code_cmd.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_cfg_rotate_function_cmd.h
+[11.255s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_start_chassis_left_rotate_cmd.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__type_support.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__functions.c
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__functions.c
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__type_support.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__functions.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__functions.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__functions.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__functions.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__functions.c
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__functions.c
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__type_support.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__struct.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__functions.c
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__functions.c
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__functions.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__functions.h
+[11.256s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__functions.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__struct.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__struct.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__functions.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__struct.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__functions.c
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__struct.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__functions.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__functions.c
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__functions.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__functions.c
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__struct.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__functions.c
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__type_support.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__functions.h
+[11.257s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__struct.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__type_support.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__functions.c
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__functions.c
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__functions.c
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__type_support.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__type_support.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__functions.c
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__functions.c
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__functions.c
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__struct.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__functions.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__type_support.h
+[11.258s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__struct.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__functions.c
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__struct.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__struct.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__functions.c
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__functions.c
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__struct.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__functions.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__type_support.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__type_support.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__type_support.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__type_support.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__functions.c
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__functions.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__type_support.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_host_and_chassis_match_cmd.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_reset_host_power_cmd.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_chassis_rotate_switch_cmd.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_rotate_function_cfg_cmd.h
+[11.259s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_enable_chassis_rotate_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_chassis_poweroff_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/chassis_send_event.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_vel_max_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_load_param_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_load_param_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_chassis_sn_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_stop_chassis_rotate_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_vel_max_feedback_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_chassis_buzzer_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_start_chassis_right_rotate_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_chassis_enable_cmd.h
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/library_path.sh
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/library_path.dsv
+[11.260s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_generator_c.so
+[11.261s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_generator_c.so" to ""
+[11.261s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs
+[11.261s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action
+[11.261s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail
+[11.261s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__rosidl_typesupport_fastrtps_c.h
+[11.261s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg
+[11.261s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail
+[11.261s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__rosidl_typesupport_fastrtps_c.h
+[11.261s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__rosidl_typesupport_fastrtps_c.h
+[11.261s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__rosidl_typesupport_fastrtps_c.h
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.262s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv
+[11.262s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail
+[11.262s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__rosidl_typesupport_fastrtps_c.h
+[11.263s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__rosidl_typesupport_fastrtps_c.h
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_fastrtps_c.so
+[11.264s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.264s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs
+[11.264s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action
+[11.264s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail
+[11.264s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__type_support.c
+[11.265s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg
+[11.265s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.265s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv
+[11.265s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__type_support.c
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__rosidl_typesupport_introspection_c.h
+[11.265s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__type_support.c
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__rosidl_typesupport_introspection_c.h
+[11.266s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__type_support.c
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__type_support.c
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__rosidl_typesupport_introspection_c.h
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__type_support.c
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__type_support.c
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__type_support.c
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__type_support.c
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__rosidl_typesupport_introspection_c.h
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__rosidl_typesupport_introspection_c.h
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_introspection_c.so
+[11.267s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.267s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_c.so
+[11.267s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_c.so" to ""
+[11.268s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs
+[11.268s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action
+[11.268s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__struct.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__builder.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__traits.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/ros_set_iap_cmd.hpp
+[11.268s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/chassis_mileage_meter_fb.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/bms_fb.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/ticks_fb.hpp
+[11.268s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__traits.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__struct.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__traits.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__builder.hpp
+[11.268s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__builder.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__traits.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__struct.hpp
+[11.269s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/speed_fb.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/motor_work_mode_fb.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/chassis_ctrl_src_fb.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/chassis_mode_fb.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/error_code_fb.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/front_wheel_angle_fb.hpp
+[11.270s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_rotate_function_cfg_cmd.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_host_and_chassis_match_cmd.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_start_chassis_left_rotate_cmd.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_vel_max_cmd.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_cfg_rotate_function_cmd.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/chassis_send_event.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_clear_chassis_error_code_cmd.hpp
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_reset_host_power_cmd.hpp
+[11.270s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail
+[11.270s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__struct.hpp
+[11.274s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__struct.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__struct.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__struct.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__struct.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__traits.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__builder.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__struct.hpp
+[11.275s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__builder.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__traits.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__traits.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__traits.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__traits.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__traits.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__builder.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__struct.hpp
+[11.276s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__traits.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__traits.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__struct.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__traits.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__traits.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__traits.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__struct.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__traits.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__struct.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__builder.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__struct.hpp
+[11.277s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__struct.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__builder.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__builder.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__traits.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__builder.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__struct.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_chassis_sn_cmd.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_stop_chassis_rotate_cmd.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_chassis_rotate_switch_cmd.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_start_chassis_right_rotate_cmd.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_vel_max_feedback_cmd.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_load_param_cmd.hpp
+[11.278s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_load_param_cmd.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_chassis_enable_cmd.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_chassis_poweroff_cmd.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_enable_chassis_rotate_cmd.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_get_sw_version_cmd.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/ros_set_chassis_buzzer_cmd.hpp
+[11.279s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs
+[11.279s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action
+[11.279s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/dds_fastrtps
+[11.279s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg
+[11.279s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.279s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/dds_fastrtps
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.280s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv
+[11.280s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.280s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/dds_fastrtps
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.281s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.281s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs
+[11.281s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action
+[11.281s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__type_support.cpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/action/detail/ros_set_iap_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.281s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg
+[11.281s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__type_support.cpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__type_support.cpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__type_support.cpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_ctrl_src_fb__type_support.cpp
+[11.281s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/front_wheel_angle_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/speed_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/ticks_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/motor_work_mode_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/error_code_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mileage_meter_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/chassis_mode_fb__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/msg/detail/bms_fb__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv
+[11.282s] -- Up-to-date: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__type_support.cpp
+[11.282s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_left_rotate_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_sn_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_chassis_rotate_switch_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_cfg_rotate_function_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_buzzer_cmd__type_support.cpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.283s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_start_chassis_right_rotate_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_enable_chassis_rotate_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/chassis_send_event__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_reset_host_power_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_load_param_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_vel_max_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_rotate_function_cfg_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_poweroff_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_host_and_chassis_match_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_vel_max_feedback_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_get_sw_version_cmd__type_support.cpp
+[11.284s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_clear_chassis_error_code_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.285s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_load_param_cmd__type_support.cpp
+[11.285s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_set_chassis_enable_cmd__type_support.cpp
+[11.285s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/include/segway_msgs/segway_msgs/srv/detail/ros_stop_chassis_rotate_cmd__rosidl_typesupport_introspection_cpp.hpp
+[11.285s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_introspection_cpp.so
+[11.286s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_cpp.so
+[11.286s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_typesupport_cpp.so" to ""
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/pythonpath.sh
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/pythonpath.dsv
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs-0.0.0-py3.10.egg-info
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[11.286s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.287s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.287s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs
+[11.287s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.287s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/__init__.py
+[11.287s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/_segway_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.288s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action
+[11.288s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action/__init__.py
+[11.288s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action/_ros_set_iap_cmd_s.c
+[11.288s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action/_ros_set_iap_cmd.py
+[11.288s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/_segway_msgs_s.ep.rosidl_typesupport_c.c
+[11.288s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/_segway_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_mode_fb.py
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_mode_fb_s.c
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_motor_work_mode_fb_s.c
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/__init__.py
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_bms_fb_s.c
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_ticks_fb.py
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_motor_work_mode_fb.py
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_error_code_fb_s.c
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_speed_fb_s.c
+[11.289s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_front_wheel_angle_fb.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_mileage_meter_fb.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_speed_fb.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_bms_fb.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_ctrl_src_fb.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_ctrl_src_fb_s.c
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_error_code_fb.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_mileage_meter_fb_s.c
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_ticks_fb_s.c
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_front_wheel_angle_fb_s.c
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_chassis_send_event.py
+[11.290s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_rotate_function_cfg_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_stop_chassis_rotate_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_vel_max_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_load_param_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_enable_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_cfg_rotate_function_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_stop_chassis_rotate_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/__init__.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_chassis_sn_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_load_param_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_host_and_chassis_match_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_load_param_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_poweroff_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_sw_version_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_reset_host_power_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_vel_max_feedback_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_start_chassis_right_rotate_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_enable_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_start_chassis_left_rotate_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_start_chassis_right_rotate_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_chassis_rotate_switch_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_buzzer_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_start_chassis_left_rotate_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_cfg_rotate_function_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_poweroff_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_chassis_send_event_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_enable_chassis_rotate_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_clear_chassis_error_code_cmd.py
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_clear_chassis_error_code_cmd_s.c
+[11.291s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_vel_max_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_load_param_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_host_and_chassis_match_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_chassis_rotate_switch_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_sw_version_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_buzzer_cmd_s.c
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_enable_chassis_rotate_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_reset_host_power_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_chassis_sn_cmd.py
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_rotate_function_cfg_cmd_s.c
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_vel_max_feedback_cmd_s.c
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/libsegway_msgs__rosidl_generator_py.so
+[11.292s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.339s] Listing '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs'...
+[11.339s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/__init__.py'...
+[11.339s] Listing '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action'...
+[11.339s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action/__init__.py'...
+[11.339s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/action/_ros_set_iap_cmd.py'...
+[11.339s] Listing '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg'...
+[11.339s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/__init__.py'...
+[11.339s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_bms_fb.py'...
+[11.339s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_ctrl_src_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_mileage_meter_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_chassis_mode_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_error_code_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_front_wheel_angle_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_motor_work_mode_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_speed_fb.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/msg/_ticks_fb.py'...
+[11.340s] Listing '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/__init__.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_chassis_send_event.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_clear_chassis_error_code_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_enable_chassis_rotate_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_chassis_rotate_switch_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_chassis_sn_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_host_and_chassis_match_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_load_param_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_rotate_function_cfg_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_sw_version_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_get_vel_max_feedback_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_reset_host_power_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_cfg_rotate_function_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_buzzer_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_enable_cmd.py'...
+[11.340s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_chassis_poweroff_cmd.py'...
+[11.341s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_load_param_cmd.py'...
+[11.341s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_set_vel_max_cmd.py'...
+[11.341s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_start_chassis_left_rotate_cmd.py'...
+[11.341s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_start_chassis_right_rotate_cmd.py'...
+[11.341s] Compiling '/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/srv/_ros_stop_chassis_rotate_cmd.py'...
+[11.342s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.343s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.343s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.343s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.343s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.344s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages/segway_msgs/segway_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_generator_py.so
+[11.344s] -- Set runtime path of "/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/libsegway_msgs__rosidl_generator_py.so" to ""
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/BmsFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ChassisCtrlSrcFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ChassisMileageMeterFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ChassisModeFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ErrorCodeFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/FrontWheelAngleFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/MotorWorkModeFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/SpeedFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/TicksFb.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/ChassisSendEvent.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosClearChassisErrorCodeCmd.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosEnableChassisRotateCmd.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisRotateSwitchCmd.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisSnCmd.idl
+[11.344s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetHostAndChassisMatchCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetLoadParamCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetRotateFunctionCfgCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetSwVersionCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetVelMaxFeedbackCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosResetHostPowerCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetCfgRotateFunctionCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisBuzzerCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisEnableCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisPoweroffCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetLoadParamCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetVelMaxCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisLeftRotateCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisRightRotateCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStopChassisRotateCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/action/RosSetIapCmd.idl
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/BmsFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ChassisCtrlSrcFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ChassisMileageMeterFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ChassisModeFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/ErrorCodeFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/FrontWheelAngleFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/MotorWorkModeFb.msg
+[11.345s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/SpeedFb.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/msg/TicksFb.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/ChassisSendEvent.srv
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/ChassisSendEvent_Request.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/ChassisSendEvent_Response.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosClearChassisErrorCodeCmd.srv
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosClearChassisErrorCodeCmd_Request.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosClearChassisErrorCodeCmd_Response.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosEnableChassisRotateCmd.srv
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosEnableChassisRotateCmd_Request.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosEnableChassisRotateCmd_Response.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisRotateSwitchCmd.srv
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisRotateSwitchCmd_Request.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisRotateSwitchCmd_Response.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisSnCmd.srv
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisSnCmd_Request.msg
+[11.346s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetChassisSnCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetHostAndChassisMatchCmd.srv
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetHostAndChassisMatchCmd_Request.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetHostAndChassisMatchCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetLoadParamCmd.srv
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetLoadParamCmd_Request.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetLoadParamCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetRotateFunctionCfgCmd.srv
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetRotateFunctionCfgCmd_Request.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetRotateFunctionCfgCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetSwVersionCmd.srv
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetSwVersionCmd_Request.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetSwVersionCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetVelMaxFeedbackCmd.srv
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetVelMaxFeedbackCmd_Request.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosGetVelMaxFeedbackCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosResetHostPowerCmd.srv
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosResetHostPowerCmd_Request.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosResetHostPowerCmd_Response.msg
+[11.347s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetCfgRotateFunctionCmd.srv
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetCfgRotateFunctionCmd_Request.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetCfgRotateFunctionCmd_Response.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisBuzzerCmd.srv
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisBuzzerCmd_Request.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisBuzzerCmd_Response.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisEnableCmd.srv
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisEnableCmd_Request.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisEnableCmd_Response.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisPoweroffCmd.srv
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisPoweroffCmd_Request.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetChassisPoweroffCmd_Response.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetLoadParamCmd.srv
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetLoadParamCmd_Request.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetLoadParamCmd_Response.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetVelMaxCmd.srv
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetVelMaxCmd_Request.msg
+[11.348s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosSetVelMaxCmd_Response.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisLeftRotateCmd.srv
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisLeftRotateCmd_Request.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisLeftRotateCmd_Response.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisRightRotateCmd.srv
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisRightRotateCmd_Request.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStartChassisRightRotateCmd_Response.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStopChassisRotateCmd.srv
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStopChassisRotateCmd_Request.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/srv/RosStopChassisRotateCmd_Response.msg
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/action/RosSetIapCmd.action
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/ament_index/resource_index/package_run_dependencies/segway_msgs
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/ament_index/resource_index/parent_prefix_path/segway_msgs
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/ament_prefix_path.sh
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/ament_prefix_path.dsv
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/path.sh
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/environment/path.dsv
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/local_setup.bash
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/local_setup.sh
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/local_setup.zsh
+[11.349s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/local_setup.dsv
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/package.dsv
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/ament_index/resource_index/packages/segway_msgs
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_generator_cExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_generator_cExport-release.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_cExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_cExport-release.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_generator_cppExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_cppExport.cmake
+[11.350s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgs__rosidl_typesupport_cppExport-release.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_generator_pyExport.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/export_segway_msgs__rosidl_generator_pyExport-release.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/rosidl_cmake-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgsConfig.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/cmake/segway_msgsConfig-version.cmake
+[11.351s] -- Installing: /home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share/segway_msgs/package.xml
+[11.355s] Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs' returned '0': /home/joe/.local/bin/cmake --install /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs

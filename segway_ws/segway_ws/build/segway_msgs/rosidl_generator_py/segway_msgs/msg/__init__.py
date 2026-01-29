@@ -1,0 +1,9 @@
+from segway_msgs.msg._bms_fb import BmsFb  # noqa: F401
+from segway_msgs.msg._chassis_ctrl_src_fb import ChassisCtrlSrcFb  # noqa: F401
+from segway_msgs.msg._chassis_mileage_meter_fb import ChassisMileageMeterFb  # noqa: F401
+from segway_msgs.msg._chassis_mode_fb import ChassisModeFb  # noqa: F401
+from segway_msgs.msg._error_code_fb import ErrorCodeFb  # noqa: F401
+from segway_msgs.msg._front_wheel_angle_fb import FrontWheelAngleFb  # noqa: F401
+from segway_msgs.msg._motor_work_mode_fb import MotorWorkModeFb  # noqa: F401
+from segway_msgs.msg._speed_fb import SpeedFb  # noqa: F401
+from segway_msgs.msg._ticks_fb import TicksFb  # noqa: F401

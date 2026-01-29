@@ -1,0 +1,6 @@
+CorrelationId: 90e4f934-c83f-401f-890a-36046670c89e
+UTC DateTime: 01/22/2026 06:11:05
+
+The following files/folders have not been downloaded
+0. segway_ws/rospy_package/CATKIN_IGNORE
+1. segway_ws/segwayrmp/CATKIN_IGNORE

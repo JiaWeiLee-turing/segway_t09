@@ -1,0 +1,115 @@
+[0.026s] Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2': CMAKE_PREFIX_PATH=/home/joe/pac-man/install/simulator_compatibility_test:/home/joe/pac-man/install/py_pub_test:/home/joe/pac-man/install/ntrip_client:/home/joe/pac-man/install/nmea_navsat_driver:/home/joe/pac-man/install/ad_api_visualizers:/opt/ros/humble:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/pkgconfig PYTHONPATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share /home/joe/.local/bin/cmake --build /home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2 -- -j32 -l32
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/drive_sample.dir/src/drive_segway_sample.cpp.o[0m
+[0.135s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:16,
+[0.135s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.135s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h: In member function ‘SensorData::BaseImu SensorData::BaseImu::Interpolation(int64_t, SensorData::BaseImu, SensorData::BaseImu)’:
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:29:58: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.135s]    29 |             if(time_inter <= imu_before.TimeStamp)return imu_before;
+[0.135s]       |                                                          ^~~~~~~~~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.135s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.135s]       |                  ^~~~~~~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:30:57: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.135s]    30 |             if(time_inter >= imu_after.TimeStamp)return imu_after;
+[0.135s]       |                                                         ^~~~~~~~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.135s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.135s]       |                  ^~~~~~~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:31:67: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.135s]    31 |             if(imu_before.TimeStamp == imu_after.TimeStamp)return imu_before;
+[0.135s]       |                                                                   ^~~~~~~~~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.135s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.135s]       |                  ^~~~~~~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:38:20: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.135s]    38 |             return res;
+[0.135s]       |                    ^~~
+[0.135s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.135s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.136s]       |                  ^~~~~~~~
+[0.136s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h: In member function ‘SensorData::BaseImu ImuRecord::getAverageImu(int64_t)’:
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:28:38: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.136s]    28 |     SensorData::BaseImu imu_after = *i;
+[0.136s]       |                                      ^
+[0.136s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:16,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.136s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.136s]       |                  ^~~~~~~~
+[0.136s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:38:55: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.136s]    38 |       SensorData::BaseImu imu_suanz = i->Interpolation(ts, *i, *j);
+[0.136s]       |                                       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[0.136s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:16,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.136s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.136s]       |                  ^~~~~~~~
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:26:59: note:   initializing argument 2 of ‘SensorData::BaseImu SensorData::BaseImu::Interpolation(int64_t, SensorData::BaseImu, SensorData::BaseImu)’
+[0.136s]    26 |         BaseImu Interpolation(int64_t time_inter, BaseImu imu_before, BaseImu imu_after){
+[0.136s]       |                                                   ~~~~~~~~^~~~~~~~~~
+[0.136s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.136s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.136s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:38:55: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.136s]    38 |       SensorData::BaseImu imu_suanz = i->Interpolation(ts, *i, *j);
+[0.136s]       |                                       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[0.136s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:16,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.137s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.137s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.137s]       |                  ^~~~~~~~
+[0.137s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:26:79: note:   initializing argument 3 of ‘SensorData::BaseImu SensorData::BaseImu::Interpolation(int64_t, SensorData::BaseImu, SensorData::BaseImu)’
+[0.137s]    26 |         BaseImu Interpolation(int64_t time_inter, BaseImu imu_before, BaseImu imu_after){
+[0.137s]       |                                                                       ~~~~~~~~^~~~~~~~~
+[0.137s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.137s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:43:49: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.137s]    43 |     if (time_gap_ == 0) return imu_buffer_.back();
+[0.137s]       |                                                 ^
+[0.137s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:16,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.137s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.137s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.137s]       |                  ^~~~~~~~
+[0.137s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.137s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:47:12: warning: implicitly-declared ‘constexpr SensorData::BaseImu::BaseImu(const SensorData::BaseImu&)’ is deprecated [-Wdeprecated-copy]
+[0.137s]    47 |     return res_imu;
+[0.137s]       |            ^~~~~~~
+[0.137s] In file included from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_odometry.h:16,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/segway_ros2/drive_segway_sample.hpp:5,
+[0.137s]                  from /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/src/drive_segway_sample.cpp:10:
+[0.137s] /home/joe/Desktop/segway_ws/segway_ws/src/segway_ros2/include/Ge_encoder_sensordata.h:17:18: note: because ‘SensorData::BaseImu’ has user-provided ‘SensorData::BaseImu& SensorData::BaseImu::operator=(SensorData::BaseImu&)’
+[0.137s]    17 |         BaseImu& operator=(BaseImu& other)
+[0.137s]       |                  ^~~~~~~~
+[0.275s] [100%] [32m[1mLinking CXX executable drive_sample[0m
+[0.551s] [100%] Built target drive_sample
+[0.562s] Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2' returned '0': CMAKE_PREFIX_PATH=/home/joe/pac-man/install/simulator_compatibility_test:/home/joe/pac-man/install/py_pub_test:/home/joe/pac-man/install/ntrip_client:/home/joe/pac-man/install/nmea_navsat_driver:/home/joe/pac-man/install/ad_api_visualizers:/opt/ros/humble:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/pkgconfig PYTHONPATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share /home/joe/.local/bin/cmake --build /home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2 -- -j32 -l32
+[0.665s] Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2': CMAKE_PREFIX_PATH=/home/joe/pac-man/install/simulator_compatibility_test:/home/joe/pac-man/install/py_pub_test:/home/joe/pac-man/install/ntrip_client:/home/joe/pac-man/install/nmea_navsat_driver:/home/joe/pac-man/install/ad_api_visualizers:/opt/ros/humble:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/pkgconfig PYTHONPATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share /home/joe/.local/bin/cmake --install /home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2
+[0.696s] -- Install configuration: "Release"
+[0.696s] -- Execute custom install script
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/lib/segway_ros2/drive_sample
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/ament_index/resource_index/package_run_dependencies/segway_ros2
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/ament_index/resource_index/parent_prefix_path/segway_ros2
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/environment/ament_prefix_path.sh
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/environment/ament_prefix_path.dsv
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/environment/path.sh
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/environment/path.dsv
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/local_setup.bash
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/local_setup.sh
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/local_setup.zsh
+[0.696s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/local_setup.dsv
+[0.696s] -- Symlinking: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/package.dsv
+[0.705s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/ament_index/resource_index/packages/segway_ros2
+[0.705s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/cmake/segway_ros2Config.cmake
+[0.705s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/cmake/segway_ros2Config-version.cmake
+[0.705s] -- Up-to-date symlink: /home/joe/Desktop/segway_ws/segway_ws/install/segway_ros2/share/segway_ros2/package.xml
+[0.708s] Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2' returned '0': CMAKE_PREFIX_PATH=/home/joe/pac-man/install/simulator_compatibility_test:/home/joe/pac-man/install/py_pub_test:/home/joe/pac-man/install/ntrip_client:/home/joe/pac-man/install/nmea_navsat_driver:/home/joe/pac-man/install/ad_api_visualizers:/opt/ros/humble:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/lib/pkgconfig PYTHONPATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/joe/Desktop/segway_ws/segway_ws/install/segway_msgs/share /home/joe/.local/bin/cmake --install /home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2

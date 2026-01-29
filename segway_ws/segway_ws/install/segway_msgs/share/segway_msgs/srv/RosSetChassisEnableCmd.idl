@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from segway_msgs/srv/RosSetChassisEnableCmd.srv
+// generated code does not contain a copyright notice
+
+
+module segway_msgs {
+  module srv {
+    struct RosSetChassisEnableCmd_Request {
+      boolean ros_set_chassis_enable_cmd;
+    };
+    struct RosSetChassisEnableCmd_Response {
+      uint8 chassis_set_chassis_enable_result;
+    };
+  };
+};

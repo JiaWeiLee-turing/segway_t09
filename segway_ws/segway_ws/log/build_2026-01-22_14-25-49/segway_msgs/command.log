@@ -1,0 +1,4 @@
+Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs': /home/joe/.local/bin/cmake --build /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs -- -j32 -l32
+Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs' returned '0': /home/joe/.local/bin/cmake --build /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs -- -j32 -l32
+Invoking command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs': /home/joe/.local/bin/cmake --install /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs
+Invoked command in '/home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs' returned '0': /home/joe/.local/bin/cmake --install /home/joe/Desktop/segway_ws/segway_ws/build/segway_msgs

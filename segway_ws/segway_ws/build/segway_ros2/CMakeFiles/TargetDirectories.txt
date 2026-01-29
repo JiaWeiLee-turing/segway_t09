@@ -1,0 +1,10 @@
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/uninstall.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/segway_ros2_uninstall.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/drive_sample.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/test.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/edit_cache.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/rebuild_cache.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/list_install_components.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/install.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/install/local.dir
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/CMakeFiles/install/strip.dir

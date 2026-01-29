@@ -1,0 +1,2 @@
+
+uint8   chassis_set_chassis_enable_result

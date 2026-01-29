@@ -1,0 +1,1 @@
+/home/joe/Desktop/segway_ws/segway_ws/build/segway_ros2/ament_cmake_environment_hooks/local_setup.bash
