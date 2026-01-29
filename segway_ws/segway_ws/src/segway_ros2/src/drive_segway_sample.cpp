@@ -55,17 +55,29 @@ SegwayChassis::SegwayChassis(const rclcpp::NodeOptions &options)
   using std::placeholders::_2;
 
   // declear parameters
-
+  // init communication type
+  this->declare_parameter<std::string>("comu", "can");
   // init Serial Port
   this->declare_parameter<std::string>("segwaySmartCarSerial", "ttyUSB0");
+  // init CAN Port
+  this->declare_parameter<std::string>("canIface", "can0");
+
+  // set parameters
+  std::string comu_type = this->get_parameter("comu").as_string();
+  std::string can_iface = this->get_parameter("canIface").as_string();
   std::string serial = this->get_parameter("segwaySmartCarSerial").as_string();
-  RCLCPP_INFO(this->get_logger(), "segwaySmartCarSerial: %s", serial.c_str());
-  set_smart_car_serial(serial.c_str());
-  set_comu_interface(comu_serial);
+
+  RCLCPP_INFO(this->get_logger(), "comu: %s", comu_type.c_str());
+  if (comu_type == "can") {
+    set_comu_interface(comu_can);
+  } else {
+    set_smart_car_serial(serial.c_str());
+    set_comu_interface(comu_serial);
+  }
+
+  // check init control
   if (init_control_ctrl() == -1) {
     RCLCPP_ERROR(this->get_logger(), "init_control failed");
-  } else {
-    RCLCPP_INFO(this->get_logger(), "init success!");
   }
 
   // Publisher
